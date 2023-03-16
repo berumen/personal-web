@@ -1,0 +1,32 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berumen/personal-web.git"
+  },
+  "keywords": [
+    "personal",
+    "web",
+    "portfolio"
+  ],
+  "author": "@berumen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berumen/personal-web/issues"
+  },
+  "homepage": "https://github.com/berumen/personal-web#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
