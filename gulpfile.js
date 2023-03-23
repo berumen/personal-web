@@ -23,7 +23,7 @@ function cpHtml() {
 }
 
 function watcher() {
-  watch(['./src/*.html'], series(styleMin));
+  watch(['./src/*.html'], series(styleTC, styleMin, cpHtml));
 }
 
 exports.default = series(styleTC, styleMin, cpHtml, watcher);
